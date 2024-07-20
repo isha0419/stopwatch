@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Courier Prime", monospace;
+}
+body{
+    background-color: rgb(188, 230, 242);
+}
+.stopwatch{
+    width: 90%;
+    max-width: 500px;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(./background.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 40px 0;
+    color: #fbfab5;
+    margin: 200px auto 0;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+.stopwatch h1{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 200;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button img{
+    width: 40px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+.button img:nth-child(2){
+    width: 60px;
+}
+    
